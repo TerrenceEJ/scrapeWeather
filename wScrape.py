@@ -18,14 +18,6 @@ for p in overview:
         temp = parser.find('p', class_='temp temp-high').text
         print(temp)
         
-        #highTemps = parser.find('p', class_='temp temp-high')
-        #for tempTag in highTemps:
-            #print(tempTag.text)
-    
-#    lowTemps = parser.find_all('p', class_='temp temp-low')
-#    for tempTag in lowTemps:
-#        print(tempTag.text)
-
     
 
 
